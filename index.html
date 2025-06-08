@@ -2,19 +2,25 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>dinolist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dino List</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="theme-color" content="#0f0f0f" />
 </head>
 <body>
   <header>
-    <h1>dinolist</h1>
+    <h1>Dino List</h1>
+    <p>Tu colección interactiva de dinosaurios</p>
   </header>
+
   <main>
-    <p>Bienvenido a la app de dinosaurios. Pronto verás tu colección aquí 🦖</p>
+    <input type="text" id="searchInput" placeholder="Buscar dinosaurio..." />
+    <ul id="dinoList">
+      <!-- Lista de dinosaurios se agregará aquí dinámicamente -->
+    </ul>
   </main>
+
   <script src="script.js"></script>
 </body>
 </html>
